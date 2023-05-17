@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts, STATUSES } from "../stores/productSlice";
 import { AiFillStar } from "react-icons/ai";
 import { add } from "../stores/cartSlice";
-import Category from "./Category";
+import Category from "../components/Category";
 
 const Product = () => {
   const selectedValue = useSelector((state) => state.category.selectedValue);

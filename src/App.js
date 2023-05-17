@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Product from './components/Product';
+import Product from './pages/Product';
 
 import Basket from './pages/Basket';
 // import Slider from './components/Slider';
